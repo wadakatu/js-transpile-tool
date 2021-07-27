@@ -1,1 +1,1 @@
-export const cats = ['tama', 'kuro', 'tora'];
+export const cats = ['tama', 'kuro', 'tora']
