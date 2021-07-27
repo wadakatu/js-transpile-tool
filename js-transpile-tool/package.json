@@ -9,7 +9,7 @@
     },
     "keywords": [],
     "type": "module",
-    "author": "Koyo Isono",
+    "author": "wadakatu",
     "license": "ISC",
     "devDependencies": {
         "@babel/core": "^7.14.8",
