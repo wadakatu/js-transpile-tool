@@ -1,0 +1,25 @@
+{
+    "name": "js-build-tool",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "eslint ./src/**/*.js && webpack",
+        "test": "eslint --no-eslintrc --c .test-eslint.json ./test/src/*.js && webpack --config=webpack.config.test.js"
+    },
+    "keywords": [],
+    "type": "module",
+    "author": "Koyo Isono",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.14.8",
+        "@babel/preset-env": "^7.14.8",
+        "babel-loader": "^8.2.2",
+        "eslint": "^7.31.0",
+        "webpack": "^5.45.1",
+        "webpack-cli": "^4.7.2"
+    },
+    "dependencies": {
+        "glob": "^7.1.7"
+    }
+}
