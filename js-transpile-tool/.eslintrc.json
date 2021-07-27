@@ -1,0 +1,28 @@
+{
+    "root": true,
+    "extends": "eslint:recommended",
+    "rules": {
+        //セミコロン強制
+        "semi": [
+            "error",
+            "always"
+        ],
+        //セミコロン２つ続き禁止
+        "no-extra-semi": "error",
+        //return, throw, continue, break後のコード禁止
+        "no-unreachable": "error",
+        //宣言されていない変数禁止
+        "no-undef": "error",
+        //console系禁止
+        "no-console": "error"
+    },
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jquery": true
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2021
+    }
+}

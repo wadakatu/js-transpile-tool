@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "extends": "eslint:recommended",
+    "rules": {
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-extra-semi": "error",
+        "no-unreachable": "error",
+        "no-undef": "error"
+    },
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jquery": true
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2021
+    }
+}
